@@ -1,10 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Dclock from "./Dclock";
+import Events from './Events';
+
+
 ReactDOM.render(
   <>
-  <Dclock />
+  <Events />
 </>,
   
   document.getElementById('root')
