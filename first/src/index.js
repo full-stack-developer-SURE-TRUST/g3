@@ -1,11 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Slot from "./Slot";
-
+import Dclock from "./Dclock";
 ReactDOM.render(
   <>
-  <Slot />
+  <Dclock />
 </>,
   
   document.getElementById('root')
