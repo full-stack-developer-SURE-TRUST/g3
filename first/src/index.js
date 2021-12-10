@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Events from './Events';
+import Forms from './Forms';
 
 
 ReactDOM.render(
   <>
-  <Events />
+  <Forms />
 </>,
   
   document.getElementById('root')
