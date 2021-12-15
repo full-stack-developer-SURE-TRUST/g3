@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.shortcuts import loader
+from .form import EmpForm
 
 # Create your views here.
 def home(request):
@@ -13,3 +14,7 @@ def index(request):
         'student':'Deepak '  
     }  
     return HttpResponse(template.render(name)) 
+
+def frm(request):  
+    stu = EmpForm()  
+    return render(request,"forrm.html",{'form':stu})      
